@@ -314,6 +314,9 @@ void app_main(void)
 
     // Initialize Modbus TCP slave
     uint8_t edad = 0;
+
+    // prueba de lectura de registros de entrada antes de iniciar el slave
+    
     uint8_t eth_port_cnt = 0;
     esp_eth_handle_t *eth_handles;
     
